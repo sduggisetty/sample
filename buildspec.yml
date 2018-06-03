@@ -11,4 +11,5 @@ phases:
       - mvn package
 artifacts:
   files:
-    - target/trucks1.war
+    - trucks1.war
+  base-directory: target
